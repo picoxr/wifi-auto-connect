@@ -1,8 +1,6 @@
 # Method of Wi-Fi Auto Connection
 
-Copy Picovr_WifiManager_version.jar
-and PicoUnityActivity.cs into your project, and make sure Picovr_WifiManager_version.jar
-is under path Assets/Plugins/Android/
+Create a new Unity project and copy the Picovr_WifiManager_version. Jar package in assets into the corresponding directory of plugins-> Android in Unity project.Copy the picounityactivity.cs script from assets into any directory of the Unity project
 
 ## Modify AndroidManifest
 
@@ -40,7 +38,7 @@ False：Not connected
 
 # WIFI自动连接功能解决方案
 
-新建Unity工程，把Demo中的Plugins->Android中的Picovr_WifiManager_version.jar包，拷贝到Unity工程对应的目录下。将Demo中的PicoUnityActivity.cs脚本拷贝到Unity工程任意目录下
+新建Unity工程，把assets中的Picovr_WifiManager_version.jar包，拷贝到Unity工程中Plugins->Android对应的目录下。将assets中的PicoUnityActivity.cs脚本拷贝到Unity工程任意目录下
 
 ## AndroidManifest文件修改
 
