@@ -5,10 +5,14 @@
 ## AndroidManifest文件修改
 
 1.增加**android:sharedUserId="android.uid.system"**必须系统签名
+![](https://github.com/PicoSupport/PicoVRWifimanager/blob/master/assets/01.png)
 
-2.加入网络相关权限，如下图所示。
+2.加入网络相关权限，如下图所示
+
+![](https://github.com/PicoSupport/PicoVRWifimanager/blob/master/assets/02.png)
 
 3.修改MainActivity
+![](https://github.com/PicoSupport/PicoVRWifimanager/blob/master/assets/03.png)
 
 ## 配置文件说明
 
@@ -17,6 +21,8 @@
 2.配置文件格式，如下图所示。ssid后填写WIFI名，pswd后填写WIFI密码。
 
    注：WIFI名称请使用英文字符
+   
+   ![](https://github.com/PicoSupport/PicoVRWifimanager/blob/master/assets/04.png)
 
 ## 接口说明
 
