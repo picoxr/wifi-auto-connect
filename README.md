@@ -1,3 +1,43 @@
+# Method of Wi-Fi Auto Connection
+
+Copy Picovr_WifiManager_version.jar
+and PicoUnityActivity.cs into your project, and make sure Picovr_WifiManager_version.jar
+is under path Assets/Plugins/Android/
+
+## Modify AndroidManifest
+
+1.Add shared user id in the script. android:sharedUserId="android.uid.system"
+
+![](https://github.com/PicoSupport/PicoVRWifimanager/blob/master/assets/01.png)
+
+2.Add permissions related to network, see the picture below.
+
+![](https://github.com/PicoSupport/PicoVRWifimanager/blob/master/assets/02.png)
+
+3.Modify the name of mainactivity
+
+![](https://github.com/PicoSupport/PicoVRWifimanager/blob/master/assets/03.png)
+
+## Instructions of config.txt file
+
+1.The file should under path pre_resource/config/ in the system(create one if the path not exist).
+
+2.About the format of the file please see the picture below. Fill in Wifi name for ssid, and password for pswd.
+
+![](https://github.com/PicoSupport/PicoVRWifimanager/blob/master/assets/04.png)
+
+## Functions in Wifi auto connection demo
+
+1.PicoUnityActivity.CallObjectMethod("wifiConnected");Used to check
+the state of config.txt flie and start to connect specific Wi-Fi. The result
+will be showed in the panel of the scene.
+
+2.PicoUnityActivity.CallObjectMethod <boolean>(ref result,"GetWifiConnectedState");Used to get the state of Wifi connection. If connected, the specified Wifi name will be showed in the panel, or it will show "Connecting". The return value flag:
+
+True：Connected
+
+False：Not connected
+
 # WIFI自动连接功能解决方案
 
 新建Unity工程，把Demo中的Plugins->Android中的Picovr_WifiManager_version.jar包，拷贝到Unity工程对应的目录下。将Demo中的PicoUnityActivity.cs脚本拷贝到Unity工程任意目录下
