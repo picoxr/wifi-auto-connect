@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/PicoSupport/PicoSupport/wiki/Unity-Call-Jar--and-Export-Jar" target="_blank">ExportJar</a></p>
+
 # Method of Wi-Fi Auto Connection
 
 Create a new Unity project and copy the Picovr_WifiManager_version. Jar package in assets into the corresponding directory of plugins-> Android in Unity project.Copy the picounityactivity.cs script from assets into any directory of the Unity project
