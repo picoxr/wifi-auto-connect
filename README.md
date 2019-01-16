@@ -12,9 +12,10 @@ Note: Regarding JAR file creation and usage, please refer to [the Guideline](htt
 
 ![](https://github.com/PicoSupport/PicoVRWifimanager/blob/master/assets/02.png)
 
-3.Modify the name of mainactivity
-
-![](https://github.com/PicoSupport/PicoVRWifimanager/blob/master/assets/03.png)
+## Class Name
+```
+com.picovr.wifimanager.WifiManagerActivity
+```
 
 ## Instructions of config.txt file
 
