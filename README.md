@@ -1,8 +1,6 @@
 # Method of Wi-Fi Auto Connection
 
-Note: Regarding java package creation and usege, please refer to [the Guideline](https://github.com/PicoSupport/PicoSupport/blob/master/How_to_use_JAR_file_in_Unity_project_on_Pico_device.docx)
-
-Create a new Unity project and copy the Picovr_WifiManager_version. Jar package in assets into the corresponding directory of plugins-> Android in Unity project.Copy the picounityactivity.cs script from assets into any directory of the Unity project
+Note: Regarding JAR file creation and usage, please refer to [the Guideline](https://github.com/PicoSupport/PicoSupport/blob/master/How_to_use_JAR_file_in_Unity_project_on_Pico_device.docx)
 
 ## Modify AndroidManifest
 
