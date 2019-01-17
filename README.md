@@ -25,15 +25,9 @@ com.picovr.wifimanager.WifiManagerActivity
 
 ![](https://github.com/PicoSupport/PicoVRWifimanager/blob/master/assets/04.png)
 
-## Functions in Wifi auto connection demo
-
-1.PicoUnityActivity.CallObjectMethod("wifiConnected");Used to check
-the state of config.txt flie and start to connect specific Wi-Fi. The result
-will be showed in the panel of the scene.
-
-2.PicoUnityActivity.CallObjectMethod <boolean>(ref result,"GetWifiConnectedState");Used to get the state of Wifi connection. If connected, the specified Wifi name will be showed in the panel, or it will show "Connecting". The return value flag:
-
-True：Connected
-
-False：Not connected
+## Interface
+```
+ String wifiConnected
+ bool GetWifiConnectedState
+```
 
