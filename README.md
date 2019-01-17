@@ -27,7 +27,7 @@ com.picovr.wifimanager.WifiManagerActivity
 
 ## Interface
 ```
- String wifiConnected
- bool GetWifiConnectedState
+ String wifiConnected（）
+ bool GetWifiConnectedState（）
 ```
 
