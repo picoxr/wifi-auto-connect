@@ -6,11 +6,11 @@ Note: Regarding JAR file creation and usage, please refer to [the Guideline](htt
 
 1.Add shared user id in the script. android:sharedUserId="android.uid.system"
 
-![](https://github.com/picoxr/PicoVRWifimanager/blob/master/assets/01.png)
+![](https://github.com/picoxr/PicoWifiManager/blob/master/assets/01.png)
 
 2.Add permissions related to network, see the picture below.
 
-![](https://github.com/picoxr/PicoVRWifimanager/blob/master/assets/02.png)
+![](https://github.com/picoxr/PicoWifiManager/blob/master/assets/02.png)
 
 ## Class Name
 ```
@@ -23,7 +23,7 @@ com.picovr.wifimanager.WifiManagerActivity
 
 2.About the format of the file please see the picture below. Fill in Wifi name for ssid, and password for pswd.
 
-![](https://github.com/picoxr/PicoVRWifimanager/blob/master/assets/04.png)
+![](https://github.com/picoxr/PicoWifiManager/blob/master/assets/04.png)
 
 ## Interface
 ```
