@@ -6,7 +6,7 @@ Note: Regarding JAR file creation and usage, please refer to [the Guideline](htt
 
 ## Modify AndroidManifest
 
-1.Add shared user id in the script. android:sharedUserId="android.uid.system"
+1.Add shared user id in the script. android:sharedUserId="android.uid.system", and sign the apk with pico system signature.
 
 ![](https://github.com/picoxr/PicoWifiManager/blob/master/assets/01.png)
 
@@ -29,7 +29,7 @@ com.picovr.wifimanager.WifiManagerActivity
 
 ## Interface
 ```
- String wifiConnected（）
+ String connectWifi（）
  bool GetWifiConnectedState（）
 ```
 
