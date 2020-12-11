@@ -1,3 +1,5 @@
+**This repo is DEPRECATED, pls use [connectWifi](https://github.com/picoxr/AndroidHelper/wiki/WifiHelper#void-connectwifistring-ssidstring-password-) API in AndroidHelper instead.**
+
 # Method of Wi-Fi Auto Connection
 
 Note: Regarding JAR file creation and usage, please refer to [the Guideline](http://static.appstore.picovr.com/docs/JarUnity/index.html)
